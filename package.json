@@ -1,0 +1,11 @@
+{
+  "name": "backstreet-grill",
+  "version": "1.0.0",
+  "description": "Website for Backstreet Grill — steakhouse & grill, Richmond Hill, Gqeberha",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}

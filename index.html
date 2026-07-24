@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Backstreet Grill | Steakhouse & Grill, Richmond Hill, Gqeberha | Order & Book</title>
+<meta name="description" content="Backstreet Grill — a 4.8★ steakhouse and grill on Stanley St, Richmond Hill, Gqeberha. Black Iron steaks, mezze, cocktails and wine. Order via WhatsApp or book a table.">
+<meta name="keywords" content="Backstreet Grill, steakhouse Gqeberha, Richmond Hill restaurant, Port Elizabeth steak, grill restaurant Gqeberha, WhatsApp order steak">
+<link rel="canonical" href="https://backstreetgrill.co.za/">
+<meta property="og:title" content="Backstreet Grill — Steakhouse & Grill, Gqeberha">
+<meta property="og:description" content="4.8★ steakhouse in Richmond Hill. Black Iron steaks, mezze, cocktails. Order via WhatsApp.">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:locale" content="en_ZA">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="ZA-EC">
+<meta name="geo.placename" content="Gqeberha">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Backstreet Grill",
+  "image": "https://backstreetgrill.co.za/assets/images/hero-exterior.jpg",
+  "servesCuisine": ["Steakhouse", "Grill", "South African"],
+  "priceRange": "R200-R300",
+  "telephone": "+27673276265",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "15 Stanley St, Richmond Hill",
+    "addressLocality": "Gqeberha",
+    "postalCode": "6001",
+    "addressCountry": "ZA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -33.9511,
+    "longitude": 25.5864
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "590"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "17:00",
+      "closes": "22:00"
+    }
+  ],
+  "acceptsReservations": "True",
+  "menu": "https://backstreetgrill.co.za/#menu",
+  "url": "https://backstreetgrill.co.za/"
+}
+</script>
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <div class="brand"><span class="dot"></span>BACKSTREET GRILL</div>
+    <div class="nav-links">
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#location">Location</a>
+      <a href="#about">About</a>
+    </div>
+    <div class="nav-cta">
+      <button class="btn btn-outline cart-btn" onclick="toggleCart(true)">Cart<span class="cart-count" id="cartCount" style="display:none;">0</span></button>
+      <a class="btn btn-ember" href="https://wa.me/27673276265?text=Hi%20Backstreet%20Grill%2C%20I%27d%20like%20to%20book%20a%20table" target="_blank" rel="noopener">Book / Order</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Richmond Hill · Gqeberha</div>
+    <h1>FIRE MET<br><span>IRON.</span></h1>
+    <p class="hero-sub">Steaks seared on black iron, mezze built for sharing, and a wine wall worth lingering at. Book a table or order for collection straight to WhatsApp.</p>
+    <div class="hero-ctas">
+      <a href="#menu" class="btn btn-ember btn-lg">View The Menu</a>
+      <a href="https://wa.me/27673276265?text=Hi%20Backstreet%20Grill%2C%20I%27d%20like%20to%20order" target="_blank" rel="noopener" class="btn btn-outline btn-lg">Order on WhatsApp</a>
+    </div>
+    <div class="hero-meta">
+      <div class="meta-item"><b>4.8 ★</b>590 Google reviews</div>
+      <div class="meta-item"><b>R200–300</b>Per person</div>
+      <div class="meta-item"><b>Tue–Sat</b>5pm, dinner only</div>
+      <div class="meta-item"><b>Bookings</b>Recommended</div>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="strip-track">
+    <span>★ Black Iron Steaks</span><span>★ Reservations Required</span><span>★ Great Cocktails</span><span>★ Outdoor Seating</span><span>★ 4.8 Rated · 590 Reviews</span>
+    <span>★ Black Iron Steaks</span><span>★ Reservations Required</span><span>★ Great Cocktails</span><span>★ Outdoor Seating</span><span>★ 4.8 Rated · 590 Reviews</span>
+  </div>
+</div>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-copy">
+        <div class="eyebrow">The Backstreet</div>
+        <h2 style="font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:22px;">A backstreet warehouse, turned steakhouse.</h2>
+        <p>Sliding barn doors open onto a room built around fire — jazz on the walls, a wine wall stacked floor to ceiling, and a black iron grill running the length of the kitchen.</p>
+        <p>Every steak is finished on the iron and rested tableside. Pair it off the wine wall or start with a mezze platter built for the table to share.</p>
+        <div class="rating-row">
+          <span class="stars">★★★★★</span>
+          <span class="mono" style="color:var(--bone-dim);font-size:0.9rem;">4.8 out of 5 — 590 Google reviews</span>
+        </div>
+        <a href="#menu" class="btn btn-outline">See What's On The Grill</a>
+      </div>
+      <div class="about-img">
+        <img src="assets/images/interior-jazz.jpg" alt="Backstreet Grill dining room with New York jazz mural and wine wall">
+        <div class="about-tag">EST. RICHMOND HILL<br>GQEBERHA, SA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="menu-section" id="menu">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Order Direct</div>
+      <h2>The Menu</h2>
+      <p>Tap <b style="color:var(--brass);">+</b> on anything to build an order, then send it straight to us on WhatsApp — no account, no app.</p>
+    </div>
+
+    <div class="menu-tabs">
+      <button class="tab active" data-cat="starters">Starters</button>
+      <button class="tab" data-cat="iron">Black Iron</button>
+      <button class="tab" data-cat="sides">Sides & Sauces</button>
+      <button class="tab" data-cat="burgers">Burgers</button>
+      <button class="tab" data-cat="cocktails">Cocktails</button>
+      <button class="tab" data-cat="sweets">Sweets</button>
+      <button class="tab" data-cat="wine">Wine List</button>
+    </div>
+
+    <div class="menu-category active" data-cat="starters">
+      <div class="cat-title"><h3>To Start</h3></div>
+      <div class="item-list">
+        ITEM:Mezze Platter for 2:Bread, olives, feta, dips — built for sharing:82:mezze-2
+        ITEM:Mezze Platter for 4:The full board, double up:117:mezze-4
+        ITEM:Backstreet Side Salad::70:side-salad
+        ITEM:Backstreet Salad::99:backstreet-salad
+        ITEM:Crumbed Mushrooms:With tartare sauce:80:crumbed-mushrooms
+        ITEM:Creamy Garlic & Lemon Mussels::85:mussels
+        ITEM:Crispy Chicken Strips:With dipping sauce:80:chicken-strips
+      </div>
+    </div>
+
+    <div class="menu-category" data-cat="iron">
+      <div class="cat-title"><h3>Off The Black Iron</h3></div>
+      <div class="item-list">
+        ITEM:Topcut Beef Picanha::195:picanha
+        ITEM:Continental Butchery Sirloin:300g:175:sirloin-300
+        ITEM:Butter Cut Beef Fillet Steak:250g:220:fillet-250
+        ITEM:Red Wine & Rock Salted T-Bone:200g:235:tbone-200
+        ITEM:Backstreet Grill's Beef Ribeye:450g:250:ribeye-450
+        ITEM:Marinated Downtown Chicken Sosaties:300g:135:chicken-sosaties
+        ITEM:Crumbed Chicken Schnitzel:250g:135:chicken-schnitzel
+        ITEM:Bedford Kudu:With cheese or mushroom sauce:205:kudu
+        ITEM:Grande Fillet:250g, with caramelised onions (seasonal):285:grande-fillet
+        ITEM:Blockmans Sparta Beef Rump:350g, caramelised onions:220:rump-350
+        ITEM:Herb Basted Pork Ribeye Steak:250g:135:pork-ribeye
+        ITEM:Wagyu Sirloin:350g (when available):470:wagyu-sirloin
+        ITEM:Angus Ribeye:300g (when available):580:angus-ribeye
+        ITEM:Wagyu Ribeye:300g (when available):600:wagyu-ribeye
+        ITEM:Karoo Lamb Loin Chops:3x100g:235:lamb-chops
+        ITEM:Fillet of Hake Seared in Basil::130:hake
+        ITEM:Roast Vegetable & Lentil Curry::130:veg-curry
+        ITEM:Ribs Thursday:500g/1kg, bookings essential:150:ribs
+      </div>
+    </div>
+
+    <div class="menu-category" data-cat="sides">
+      <div class="cat-title"><h3>Sides & Extras</h3></div>
+      <div class="item-list">
+        ITEM:Onion Rings::35:onion-rings
+        ITEM:Veggie Kebab::35:veggie-kebab
+        ITEM:Sautéed Mushrooms::65:sauteed-mushrooms
+        ITEM:Chips::40:chips
+        ITEM:Garlic Baby Potatoes:With cheese sauce:60:garlic-potatoes
+      </div>
+      <div class="cat-title"><h3>Sauces</h3></div>
+      <div class="item-list">
+        ITEM:Mushroom Sauce::40:sauce-mushroom
+        ITEM:Monkey Gland Sauce::40:sauce-monkey-gland
+        ITEM:Garlic Sauce::40:sauce-garlic
+        ITEM:Cheese Sauce::40:sauce-cheese
+        ITEM:Pepper Sauce::40:sauce-pepper
+      </div>
+    </div>
+
+    <div class="menu-category" data-cat="burgers">
+      <div class="cat-title"><h3>Burgers</h3></div>
+      <div class="item-list">
+        ITEM:Chicken Burger:150g crumbed chicken fillet & cheese, served with chips:105:burger-chicken
+        ITEM:BSG Burger:200g beef patty & cheese, served with chips:120:burger-bsg
+        ITEM:Venison Burger:180g kudu patty & caramelised onion, served with chips:140:burger-venison
+        ITEM:Wagyu Burger:180g wagyu patty, served with chips:155:burger-wagyu
+      </div>
+      <div class="list-note">Extras: cheese R10 · egg R12 · jalapeños R12 · sauce R15 · caramelised onion R15</div>
+    </div>
+
+    <div class="menu-category" data-cat="cocktails">
+      <div class="cat-title"><h3>Cocktails</h3></div>
+      <div class="item-list">
+        ITEM:Piña Colada:White rum, coconut, pineapple juice:70:cocktail-pina-colada
+        ITEM:Strawberry Daiquiri:White rum, strawberries:70:cocktail-daiquiri
+        ITEM:Sex On The Beach:Vodka, peach schnapps, orange & cranberry juice:75:cocktail-sotb
+        ITEM:Backstreet Jam Jar:Vodka, blue curaçao, lemonade:70:cocktail-jam-jar
+        ITEM:Tequila Sunrise:Tequila, orange juice, grenadine:75:cocktail-sunrise
+        ITEM:Mojito:White rum, lemon juice, fresh mint:70:cocktail-mojito
+        ITEM:Long Island Iced Tea:Vodka, gin, triple sec, tequila, rum, coke:85:cocktail-lit
+        ITEM:Bloody Mary:Vodka, tomato juice:70:cocktail-bloody-mary
+      </div>
+    </div>
+
+    <div class="menu-category" data-cat="sweets">
+      <div class="cat-title"><h3>Sweets</h3></div>
+      <div class="item-list">
+        ITEM:Lindt Chocolate Brownie::0:brownie
+        ITEM:Sticky Toffee Pudding::0:sticky-toffee
+        ITEM:Crème Brûlée::0:creme-brulee
+        ITEM:Crepe Suzette:When available:0:crepe-suzette
+        ITEM:Ice-Cream & Chocolate Sauce::0:ice-cream
+      </div>
+      <div class="list-note">Ask your server for today's sweets pricing · Dom Pedros & Irish Coffees also available</div>
+    </div>
+
+    <div class="menu-category" data-cat="wine">
+      <div class="cat-title"><h3>Wine List</h3></div>
+      <div class="list-note">A cellar-wall selection — full pours and bottles available in-house. A few favourites:</div>
+      <div class="wine-item"><div class="item-name">Qub Sauvignon Blanc</div><div class="item-desc">Zesty, well-balanced acidity, long-lasting aftertaste. R44</div></div>
+      <div class="wine-item"><div class="item-name">David Finlayson Sauvignon Blanc</div><div class="item-desc">Green apple, flinty, tropical fruit with a crisp, clean finish. R180</div></div>
+      <div class="wine-item"><div class="item-name">Landskroon Pinotage</div><div class="item-desc">Ripe raspberry and cherry fruit, vanilla spice, French oak finish.</div></div>
+      <div class="wine-item"><div class="item-name">Rustenberg Malbec</div><div class="item-desc">Dark plum, pepper and tobacco notes.</div></div>
+      <div class="wine-item"><div class="item-name">Thelema Mountain Red</div><div class="item-desc">Juicy black fruit, mulberry, plum, warm spice.</div></div>
+      <div class="wine-item"><div class="item-name">Ernie Els Big Easy Cabernet Sauvignon</div><div class="item-desc">Red berries, cigar notes, black cherry and ripe plum.</div></div>
+      <a href="https://wa.me/27673276265?text=Hi%2C%20could%20I%20see%20the%20full%20wine%20list%3F" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:20px;">Ask For The Full Wine List</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Inside Backstreet</div>
+      <h2>On The Iron & Around The Room</h2>
+    </div>
+    <div class="gallery-grid">
+      <a href="#" class="g-tall"><img src="assets/images/steak-fillet.jpg" alt="Fillet steak with chips and grilled vegetable skewer"></a>
+      <a href="#"><img src="assets/images/mezze.jpg" alt="Mezze platter with bread, olives and dips"></a>
+      <a href="#"><img src="assets/images/sticky-toffee.jpg" alt="Sticky toffee pudding with vanilla ice cream"></a>
+      <a href="#" class="g-tall"><img src="assets/images/bar.jpg" alt="Backstreet Grill bar area"></a>
+      <a href="#"><img src="assets/images/steak-rosemary.jpg" alt="Grilled steak with rosemary and vegetable skewer"></a>
+      <a href="#"><img src="assets/images/winewall.jpg" alt="Wine wall at Backstreet Grill"></a>
+      <a href="#"><img src="assets/images/interior-booths.jpg" alt="Red leather booths in the dining room"></a>
+      <a href="#"><img src="assets/images/creme-brulee.jpg" alt="Crème brûlée with fresh strawberries"></a>
+    </div>
+  </div>
+</section>
+
+<section class="location" id="location">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Find Us</div>
+      <h2>Richmond Hill, Gqeberha</h2>
+    </div>
+    <div class="loc-grid">
+      <div class="loc-card">
+        <div class="loc-row">
+          <div class="loc-icon">①</div>
+          <div><div class="loc-label">Address</div><div class="loc-value">15 Stanley St, Richmond Hill, Gqeberha, 6001</div></div>
+        </div>
+        <div class="loc-row">
+          <div class="loc-icon">②</div>
+          <div><div class="loc-label">Hours</div><div class="loc-value">Tuesday – Saturday, from 5pm · Dinner only · Closes 10pm</div></div>
+        </div>
+        <div class="loc-row">
+          <div class="loc-icon">③</div>
+          <div><div class="loc-label">Contact</div><div class="loc-value">WhatsApp / Call: +27 67 327 6265</div></div>
+        </div>
+        <div class="loc-row">
+          <div class="loc-icon">④</div>
+          <div><div class="loc-label">Good To Know</div><div class="loc-value">Reservations recommended · Outdoor seating · Full cocktail bar</div></div>
+        </div>
+        <div class="badges">
+          <span class="badge">4.8 ★ · 590 Reviews</span>
+          <span class="badge">R200–300 pp</span>
+          <span class="badge">Bookings Recommended</span>
+        </div>
+        <div style="display:flex;gap:12px;margin-top:28px;flex-wrap:wrap;">
+          <a href="https://wa.me/27673276265?text=Hi%20Backstreet%20Grill%2C%20I%27d%20like%20to%20book%20a%20table" target="_blank" rel="noopener" class="btn btn-ember">Book a Table</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=15+Stanley+St,+Richmond+Hill,+Gqeberha,+6001" target="_blank" rel="noopener" class="btn btn-outline">Get Directions</a>
+        </div>
+      </div>
+      <div class="map-card">
+        <div class="map-pin">
+          <div class="pin-dot"></div>
+        </div>
+        <div class="map-card-text">
+          <div class="map-card-title">Richmond Hill</div>
+          <div class="map-card-sub">15 Stanley St, Gqeberha, 6001</div>
+        </div>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=15+Stanley+St,+Richmond+Hill,+Gqeberha,+6001" target="_blank" rel="noopener" class="btn btn-outline map-card-btn">Open in Google Maps</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">BACKSTREET GRILL</div>
+        <div class="foot-tag">A steakhouse and grill on the black iron, in the back streets of Richmond Hill, Gqeberha.</div>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Explore</h4>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#location">Location</a>
+        </div>
+        <div class="foot-col">
+          <h4>Visit</h4>
+          <p>15 Stanley St, Richmond Hill</p>
+          <p>Gqeberha, 6001, South Africa</p>
+          <a href="tel:+27673276265">+27 67 327 6265</a>
+        </div>
+        <div class="foot-col">
+          <h4>Order</h4>
+          <a href="https://wa.me/27673276265" target="_blank" rel="noopener">WhatsApp Us</a>
+          <a href="#menu">View Menu</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Backstreet Grill</span>
+      <span>Built for the back streets, not the high street.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="overlay" id="overlay" onclick="toggleCart(false)"></div>
+<div class="cart-drawer" id="cartDrawer">
+  <div class="cart-head">
+    <h3>Your Order</h3>
+    <button class="cart-close" onclick="toggleCart(false)">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <div class="cart-empty" id="cartEmpty">Your cart is empty.<br>Tap + on any menu item to add it.</div>
+  </div>
+  <div class="cart-foot">
+    <div class="cart-total"><span>Total</span><span class="mono" id="cartTotal">R 0</span></div>
+    <a class="btn btn-ember" id="waCheckout" href="#" target="_blank" rel="noopener">Send Order on WhatsApp</a>
+    <div class="cart-note">Opens WhatsApp with your order pre-filled. We'll confirm price & pickup/delivery time.</div>
+  </div>
+</div>
+
+<a class="float-wa" href="https://wa.me/27673276265?text=Hi%20Backstreet%20Grill" target="_blank" rel="noopener" aria-label="Order on WhatsApp">☎</a>
+
+<script src="src/script.js" defer></script>
+
+</body>
+</html>
