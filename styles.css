@@ -70,9 +70,9 @@
   /* ---------- hero ---------- */
   .hero{
     position:relative;min-height:100svh;display:flex;align-items:flex-end;
-    background:linear-gradient(180deg, rgba(14,13,12,0.35) 0%, rgba(14,13,12,0.55) 45%, rgba(14,13,12,0.97) 100%), url('IMG_HERO') center/cover no-repeat;
+   background:linear-gradient(180deg, rgba(14,13,12,0.35) 0%, rgba(14,13,12,0.55) 45%, rgba(14,13,12,0.97) 100%), url('assets/images/hero-exterior.jpg') center/cover no-repeat;
   }
-  .hero-inner{padding:120px 24px 72px;max-width:1180px;margin:0 auto;width:100%;}
+  hero-inner{padding:120px 24px 72px;max-width:1180px;margin:0 auto;width:100%;}
   .eyebrow{
     font-family:'JetBrains Mono',monospace;font-size:0.78rem;letter-spacing:0.15em;
     color:var(--ember-bright);text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;gap:10px;
